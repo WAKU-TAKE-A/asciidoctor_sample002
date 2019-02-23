@@ -10,16 +10,16 @@
 :revdate: 2019年2月18日
 :revnumber: 1.0版
 :version-label:
-// ディレクトリやファイルなどの設定
+// ディレクトリやテーマファイルなどの設定
 :imagesdir: ./images
 :pdf-style: ./style/my-theme.yml
 // シンタックスハイライトの設定
 :source-highlighter: rouge
-// 脚注のアイコンを表示したい時には以下を記述する必要がある
+// 脚注のアイコンを表示したい時には以下を記述する必要があります
 :icons: font
 // TOC
 // ・:sectnums: でセクション番号付けがONになります
-// ・:sectlinks: でセクションのページへ跳ぶことができます
+// ・:sectlinks:と:sectanchors: でセクションのページへ跳ぶことができます
 // ・:chapter-label: を値無しにすることで、「Chapter 1」となるのを防止できます
 :toc: left
 :toc-title: 目次
