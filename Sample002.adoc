@@ -11,6 +11,7 @@
 :revnumber: 1.0版
 :version-label:
 // ディレクトリやテーマファイルなどの設定
+// ・画像をサブディレクトリに入れるとGiHubで正常に見えません
 //:imagesdir: ./images
 :pdf-style: my-theme.yml
 // シンタックスハイライトの設定
