@@ -11,8 +11,8 @@
 :revnumber: 1.0版
 :version-label:
 // ディレクトリやテーマファイルなどの設定
-:imagesdir: ./images
-:pdf-style: ./style/my-theme.yml
+//:imagesdir: ./images
+:pdf-style: my-theme.yml
 // シンタックスハイライトの設定
 :source-highlighter: rouge
 // 脚注のアイコンを表示したい時には以下を記述する必要があります
