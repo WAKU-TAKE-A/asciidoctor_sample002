@@ -319,18 +319,18 @@ link:Sample.txt[Sample] です。
 書き方：
 
 ----
-image::Lena.jpg[Lena.jpg]
+image::lena.jpg[lena.jpg]
 ↑ブロック要素（横に書いたらNG）
 
-image:Lena.jpg[Lena.jpg] ←インライン要素
+image:lena.jpg[lena.jpg] ←インライン要素
 ----
 
 見え方：
 
-image::Lena.jpg[Lena.jpg]
+image::lena.jpg[lena.jpg]
 ↑ブロック要素（横に書いたらNG）
 
-image:Lena.jpg[Lena.jpg] ←インライン要素
+image:lena.jpg[lena.jpg] ←インライン要素
 
 
 == ソースコード
