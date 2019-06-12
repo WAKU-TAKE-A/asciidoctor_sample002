@@ -386,3 +386,5 @@ Asciidoctor限定でマークダウン形式での記述が可能です。
 ----
 -[空白]-[空白]-
 ----
+
+icon:arrow-circle-down[]
