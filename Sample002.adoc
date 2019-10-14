@@ -326,6 +326,24 @@ image::lena.jpg[lena.jpg]
 
 image:lena.jpg[lena.jpg] ←インライン要素
 
+== インライン要素、リテラル（1行、ブロック）
+
+装飾を行わずに、そのまま出力したい時に使います。
+
+....
+`
+....
+
+を前後に挟むと、行の一部に挿入することができます。
+
+....
+[空白]ほげほげ
+....
+
+で、1行挿入することができます。
+
+`....` を上下に挟むと、ブロックで挿入することができます。
+
 == ソースコード
 
 書き方：
@@ -350,7 +368,7 @@ if var == 100:
 
 == テーブル
 
-様々なカスタマイズが可能です。ここで説明するのは大変なので、 https://takumon.github.io/asciidoc-syntax-quick-reference-japanese-translation/#_テーブル[こちら] をご覧ください。
+様々なカスタマイズが可能です。ここで説明しきれませんので、 https://takumon.github.io/asciidoc-syntax-quick-reference-japanese-translation/#_テーブル[こちら] をご覧ください。
 
 私はCSVファイルを読み込んで表示するのが簡単で好きです。
 
