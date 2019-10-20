@@ -1,5 +1,5 @@
 //==========
-// Attribute
+// 属性(Attribute)
 //==========
 
 // 文書の情報
@@ -11,8 +11,7 @@
 :revnumber: 1.1版
 :version-label:
 // ディレクトリやテーマファイルなどの設定
-// ・画像をサブディレクトリに入れるとGiHubで正常に見えません
-:imagesdir: ./images
+:imagesdir: ./img
 :pdf-style: my-theme.yml
 // シンタックスハイライトの設定
 :source-highlighter: rouge
@@ -22,6 +21,7 @@
 // TOC
 // ・:sectnums: でセクション番号付けがONになります
 // ・:sectlinks:と:sectanchors: でセクションのページへ跳ぶことができます
+// ・:sectnumlevels: でセクション番号付けが行われるレベルを設定できます
 // ・:chapter-label: を値無しにすることで、「Chapter 1」となるのを防止できます
 :toc:
 :toc-title: 目次
@@ -39,7 +39,7 @@
 :title-logo-image: image:logo.png[width="200"]
 
 //===========
-// Body
+// 本文(Body)
 //===========
 
 = AsciiDoctorの記法について
@@ -396,3 +396,4 @@ Asciidoctor限定でマークダウン形式での記述が可能です。
 -[空白]-[空白]-
 ....
 
+AsciiDoc_Sample終わり
