@@ -12,10 +12,11 @@
 :version-label:
 // ディレクトリやテーマファイルなどの設定
 // ・画像をサブディレクトリに入れるとGiHubで正常に見えません
-//:imagesdir: ./images
+:imagesdir: ./images
 :pdf-style: my-theme.yml
 // シンタックスハイライトの設定
 :source-highlighter: rouge
+:rouge-style: pastie
 // 脚注のアイコンを表示したい時には以下を記述する必要があります
 :icons: font
 // TOC
@@ -45,6 +46,8 @@
 
 本サンプルは、AsciiDoctorの記法を端折って説明した文書です。網羅するものではないので注意してください。 +
 詳しくは、  https://takumon.github.io/asciidoc-syntax-quick-reference-japanese-translation/[Asciidoctor 文法クイックリファレンス(日本語訳)] を参照してください。
+
+ちなみに、スタイルファイルについては、 https://github.com/asciidoctor/asciidoctor-pdf/blob/master/docs/theming-guide.adoc[Asciidoctor PDF Theming Guide(英語)]をご覧ください。
 
 == 段落
 
@@ -132,7 +135,7 @@ CAUTION: 用心する内容を記述します。
 
 === 太字・斜体
 
-HTML出力においては問題ありませんが、PDF出力においてフォントが対応していないと正常に表示されません。特に日本語文字の斜体に対応したものを見つけることができませんでした。（TrueTypeフォント）
+HTML出力においては問題ありませんが、PDF出力においてフォントが対応していないと正常に表示されません。特にかな漢字の斜体があるものは、ほとんどありません。
 
 書き方：
 
