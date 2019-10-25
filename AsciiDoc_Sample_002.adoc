@@ -8,7 +8,7 @@
 :doctype: book
 :author: WAKU-TAKE-A
 :revdate: 2019年2月18日
-:revnumber: 1.1版
+:revnumber: 1.2版
 :version-label:
 // ディレクトリやテーマファイルなどの設定
 :pdf-style: my-theme.yml
@@ -45,9 +45,10 @@
 
 = AsciiDoctorの記法について
 
-本サンプルは、AsciiDoctorの記法を端折って説明した文書です。網羅するものではないので注意してください。 +
-詳しくは、  https://takumon.github.io/asciidoc-syntax-quick-reference-japanese-translation/[Asciidoctor 文法クイックリファレンス(日本語訳)] を参照してください。
+注意：
 
+本サンプルは、AsciiDoctorの記法を端折って説明した文書です。網羅するものではないので注意してください。 +
+詳しくは、  https://takumon.github.io/asciidoc-syntax-quick-reference-japanese-translation/[Asciidoctor 文法クイックリファレンス(日本語訳)] を参照してください。 +
 ちなみに、スタイルファイルについては、 https://github.com/asciidoctor/asciidoctor-pdf/blob/master/docs/theming-guide.adoc[Asciidoctor PDF Theming Guide(英語)]をご覧ください。
 
 == 段落
@@ -70,6 +71,8 @@ AsciiDocにおける改行は行末に、 *[スペース]+* です。
 トランペットは一生けん命歌っています。 +
 ヴァイオリンも二いろ風のように鳴っています。 +
 クラリネットもボーボーとそれに手伝っています。
+
+<<<
 
 === 脚注
 
@@ -104,6 +107,8 @@ IMPORTANT: 重要事項を記述します。
 WARNING: 警告を記述します。
 
 CAUTION: 用心する内容を記述します。
+
+<<<
 
 === 改ページ
 
