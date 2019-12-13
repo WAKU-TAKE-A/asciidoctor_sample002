@@ -7,12 +7,13 @@
 #------
 font:
   catalog:
-  catalog:
+    # Noto Serif supports Latin, Latin-1 Supplement, Latin Extended-A, Greek, Cyrillic, Vietnamese & an assortment of symbols
     Noto Serif:
       normal: notoserif-regular-subset.ttf
       bold: notoserif-bold-subset.ttf
       italic: notoserif-italic-subset.ttf
       bold_italic: notoserif-bold_italic-subset.ttf
+    # M+ 1mn supports ASCII and the circled numbers used for conums
     M+ 1mn:
       normal: mplus1mn-regular-subset.ttf
       bold: mplus1mn-bold-subset.ttf
@@ -23,21 +24,6 @@ font:
       bold: KaiGenGothicJP-Bold.ttf
       italic: KaiGenGothicJP-Regular-Italic.ttf
       bold_italic: KaiGenGothicJP-Bold-Italic.ttf
-    KaiGen Gothic JP:
-      normal: KaiGenGothicJP-Regular.ttf
-      bold: KaiGenGothicJP-Bold.ttf
-      italic: KaiGenGothicJP-Regular-Italic.ttf
-      bold_italic: KaiGenGothicJP-Bold-Italic.ttf
-    #GenYo Mincho JP:
-    #  normal: GenYoMinJP-Regular.ttf
-    #  bold: GenYoMinJP-Bold.ttf
-    #  italic: GenYoMinJP-Regular.ttf
-    #  bold_italic: GenYoMinJP-Bold.ttf
-    #Ricty Diminished:
-    #  normal: RictyDiminished-Regular.ttf
-    #  bold: RictyDiminished-Bold.ttf
-    #  italic: RictyDiminished-Oblique.ttf
-    #  bold_italic: RictyDiminished-BoldOblique.ttf
   fallbacks:
     - Noto Serif
 #------
