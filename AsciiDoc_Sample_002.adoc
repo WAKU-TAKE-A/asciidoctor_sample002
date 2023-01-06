@@ -8,7 +8,7 @@
 :doctype: book
 :author: WAKU-TAKE-A
 :revdate: 2022年7月11日
-:revnumber: 1.4版
+:revnumber: 1.5版
 :version-label:
 // ディレクトリやテーマファイルなどの設定
 :pdf-themesdir: ./
@@ -24,7 +24,7 @@
 // ・:sectnums: でセクション番号付けがONになります
 // ・:sectlinks:と:sectanchors: でセクションのページへ跳ぶことができます
 // ・:sectnumlevels: でセクション番号付けが行われるレベルを設定できます
-// ・:chapter-label: を値無しにすることで、「Chapter 1」となるのを防止できます
+// ・:chapter-signifier: を値無しにすることで、「Chapter 1」となるのを防止できます
 :toc:
 :toc-title: 目次
 :toclevels: 3
@@ -32,7 +32,7 @@
 :sectanchors:
 :sectlinks:
 :sectnumlevels: 3
-:chapter-label:
+:chapter-signifier:
 // キャプションの語句の設定
 :figure-caption: 図
 :table-caption: 表
